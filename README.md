@@ -5,6 +5,7 @@ Paper:[https://arxiv.org/abs/2306.11034](https://arxiv.org/abs/2306.11034)
 
 Implementation a fully convoluntional neural network for sound speed estimation. The network was dedicated to an input of (128, 1024, 1) acquired from a plane wave transmission with a linear array Ultrasound (US) probe. The network was pretrained with a large number of pure simulated data and fine-tuned with a small amount of phantom data. 
 
+```test_data.mat``` can be used to test the network. Trained models were saved in ```saved_models``` folder.
 
 ### Datasets：
 
