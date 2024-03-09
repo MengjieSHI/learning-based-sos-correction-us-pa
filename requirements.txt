@@ -1,0 +1,5 @@
+numpy~=1.26.4
+tensorflow~=2.8.2
+matplotlib~=3.8.0
+keras~=2.8.0
+h5py~=3.9.0
