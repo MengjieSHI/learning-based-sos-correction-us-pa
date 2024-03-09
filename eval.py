@@ -15,7 +15,7 @@ save_path = os.path.join(current_dir, 'models/' + model_name)
 
 
 trained_model = load_model(save_path+'./train.h5')
-test_input = extract_signals('./us_simulated_rf_7.3_1511_5_layered.mat','non_filtered_rf_normalized')
+test_input = extract_signals('./test_data.mat','non_filtered_rf_normalized')
 test_output = trained_model.predict(test_input)
 
 # visualisation

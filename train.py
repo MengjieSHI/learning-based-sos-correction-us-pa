@@ -53,8 +53,8 @@ def train(data_input, data_target, input_shape=(128, 1024, 1), dropout=0.5, lear
 
 if __name__ == '__main__':
     # load data
-    data_input = extract_signals('us_simulated_rf_7.3_1511_5_layered.mat','non_filtered_rf_normalized')
-    data_target = extract_signals('us_simulated_rf_7.3_1511_5_layered.mat','sos_map_d2')
+    data_input = extract_signals('test_data.mat','non_filtered_rf_normalized')
+    data_target = extract_signals('test_data.mat','sos_map_d2')
     # train
     model_name = 'pureUSsimulations'
     train(data_input, data_target, input_shape=(128, 1024, 1), dropout=0.5, learning_rate=1e-4, momentum=0.9,
