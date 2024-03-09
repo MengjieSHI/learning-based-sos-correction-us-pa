@@ -16,5 +16,6 @@ US simulation codes are available upon request. Dependencies: [k-Wave](http://ww
 Phantom data (used for model transfer learning): TBD
 
 Please cite the paper if you tend to use the codes, dataset, or find it helpful for your work. 
+Contact: mengjie.shi@kcl.ac.uk
 
 
